@@ -4,7 +4,9 @@
   "description": "Tutorials for Rocky Linux",
   "main": "postcss.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "hugo -D",
+    "build:production": "hugo",
+    "start": "hugo server -D"
   },
   "author": "The Rocky Linux Foundation",
   "license": "MIT",
