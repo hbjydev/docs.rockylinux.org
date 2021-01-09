@@ -1,3 +1,16 @@
-baseURL = "http://example.org/"
+baseURL = "/"
+title = "Rocky Linux 8.3 Documentation"
+copyright = "© 2020 The Rocky Linux Foundation. All rights reserved."
 languageCode = "en-us"
-title = "My New Hugo Site"
+
+[params]
+shortTitle = "Rocky Linux Docs"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    anchorLineNos = false
+    style = "monokai"
+    tabWidth = 4
